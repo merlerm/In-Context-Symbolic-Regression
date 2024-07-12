@@ -1,6 +1,11 @@
 # In-Context Symbolic Regression
 
-![ICSR](assets/sketch.png) *Overview of the method.*
+<p align="center" style="text-align:center">
+  <img src="assets/sketch.png" />
+  <br>
+      <em>Overview of the method.</em>
+</p>
+
 
 Official code implementation for the ACL 2024 Student Research Workshop paper [In-Context Symbolic Regression: Leveraging Language Models for Function Discovery](https://arxiv.org/abs/2404.19094). The proposed approach defines an iterative procedure that refines a functional form with an LLM and determines its coefficients with an external optimizer.
 
