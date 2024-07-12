@@ -1,0 +1,30 @@
+name: "nguyen12"
+group: "nguyen"
+
+# Train points
+train_points:
+  generate_points: false
+  data_folder: "data/nguyen/nguyen12"
+  # This part is only used if generate_points is true
+  random_points: true
+  min_points: [-1, -1]
+  max_points: [1, 1]
+  num_points: 100
+  xs_noise_std: 0
+  ys_noise_std: 0
+  add_extremes: true # Manually adds points at the extremes of the interval
+
+# Test points
+test_points:
+  min_points: [-1, -1]
+  max_points: [1, 1]
+  num_points: 500
+
+tolerance: 0.99999
+
+# Test function
+test_function: "x1^4 - x1^3 + (1/2)*x2^2 - x2"
+num_variables: 2
+
+# Total iterations
+iterations: 10

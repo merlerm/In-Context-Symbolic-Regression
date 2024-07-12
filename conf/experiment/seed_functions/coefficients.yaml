@@ -1,0 +1,2 @@
+# Initial functions
+functions: [c0*x1^3 + c1*x1, c0*x1 + c1*log(x1), c0*sin(x1) + c1*cos(x1), c0*exp(x1)*x1, c0*x1/x1^2 + c1, c0*x1^4 + c1*x1^3]

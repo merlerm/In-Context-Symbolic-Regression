@@ -1,0 +1,4 @@
+prompt: "no_info.txt"
+
+# Number of functions to keep in the prompt
+prompt_size: 0

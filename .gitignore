@@ -1,0 +1,12 @@
+**.out
+/__pycache__
+**/__pycache__
+/.ipynb_checkpoints
+/outputs
+**/outputs
+/runs
+**/runs
+/multirun
+**/multirun
+/openai
+**/profiles

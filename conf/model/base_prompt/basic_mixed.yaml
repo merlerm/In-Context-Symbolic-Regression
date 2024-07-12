@@ -1,0 +1,7 @@
+prompt: basic_mixed.txt
+
+# Type of input image (points, best_guess, all_guesses)
+input_image: points
+
+# Number of functions to keep in the prompt
+prompt_size: 5

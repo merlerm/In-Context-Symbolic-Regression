@@ -1,0 +1,24 @@
+defaults:
+  - base_prompt: image_best
+  - _self_
+
+# General
+name: llava-hf/llava-v1.6-34b-hf
+tokenizer_pad: \\[PAD\\]
+tokenizer_padding_side: left
+visual: true
+cache_dir: ''
+
+# Seed functions prompt
+seed_function_prompt: seed_functions/generate_seed_image.txt
+
+# Sampling
+max_new_tokens: 512
+top_p: 0.90
+top_k: 60
+num_beams: 1
+
+# Sampling temperature
+temperature: 1.0
+temperature_schedule: false
+temperature_schedule_gamma: 0.995

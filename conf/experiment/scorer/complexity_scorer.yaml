@@ -1,0 +1,7 @@
+name: complexity_scorer
+rounding: 8
+scientific: false
+normalize: false
+lambda: 0.05
+max_nodes: 30
+alternative: false # Use alternative scorer with custom function

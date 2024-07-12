@@ -1,0 +1,4 @@
+prompt: basic_text.txt
+
+# Number of functions to keep in the prompt
+prompt_size: 5

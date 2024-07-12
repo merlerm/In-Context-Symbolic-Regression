@@ -1,0 +1,28 @@
+defaults:
+  - base_prompt: basic_text
+  - _self_
+
+# General
+name: gpt-4o
+tokenizer_pad: \\[PAD\\]
+tokenizer_padding_side: left
+visual: false
+cache_dir: ''
+
+# Seed functions prompt
+seed_function_prompt: seed_functions/generate_seed.txt
+
+# Sampling
+max_new_tokens: 2048
+top_p: 0.90
+top_k: 60
+num_beams: 1
+
+# Sampling temperature
+temperature: 1.0
+temperature_schedule: false
+temperature_schedule_gamma: 0.995
+
+# OpenAI API
+api_key_path: openai/openai_key
+organization_id_path: openai/openai_org

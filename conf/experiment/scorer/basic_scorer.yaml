@@ -1,0 +1,5 @@
+name: basic_scorer
+rounding: 8
+scientific: false
+normalize: false
+lambda: 0

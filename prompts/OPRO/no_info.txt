@@ -1,0 +1,2 @@
+Generate five random functions of the form Function: f(x). The functions you generate should always have at most {num_variables} variables {variables_list}. 
+Only output the functions and nothing else.

@@ -1,0 +1,8 @@
+name: minmax_scorer
+rounding: 5
+scientific: false
+normalize: true
+
+# Normalization
+min_score: 1
+max_score: 10

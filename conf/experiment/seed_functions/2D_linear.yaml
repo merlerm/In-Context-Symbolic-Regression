@@ -1,0 +1,2 @@
+# Initial functions
+functions: ["2x1 + - 3x2 + 1", "-6x1 + 4x2 - 4", "3x1 + x2 + 2", "-10x1 - 14x2 + 21", "x1 + x2", "-x1 + x2", "-3 - 4x1", "x2 - 6"]

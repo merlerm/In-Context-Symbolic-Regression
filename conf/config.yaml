@@ -1,0 +1,30 @@
+defaults:
+  - model: llama3-8b
+  - experiment: standard
+  - logger: default_logger
+  - _self_
+
+# Experiment
+output_dir: runs # Output directory where all runs will be saved, with the following structure: output_dir/benchmark_name/experiment_name/model_name/run_id
+max_retries: 5 # Maximum number of retries if prompt failed to generate a valid function as the output
+force_valid: false # Force the output to be valid (i.e. a valid function). If false, when the model fails to generate a valid function, after max_retries, the output will be the best generated function so far
+force_unique: false # Force the output to be unique (i.e. different from all the functions in the prompt)
+prompts_path: prompts
+max_points_in_prompt: 40 # Maximum number of points in the prompt (if more are provided, they will automatically be downsampled)
+checkpoints: [50, 100, 200, 300, 400, 500, 600, 700, 800, 900] # Partial results will be saved at these iterations
+
+# Torch
+device: 'auto' # auto works for both CPU and GPU and can be used in a multi-GPU setup
+use_bfloat16: false
+seed: -1 # If -1, the seed will be randomly generated
+
+# Project root
+root: ??? # Path to the root of the project, where the 'conf', 'data' directories are located and where main.py is executed
+
+# Plotter
+plotter:
+  save_video: true
+  save_frames: false
+  gif_duration: 1000
+  plotter_resolution: 1000
+  plotter_fig_size: 10

@@ -1,0 +1,30 @@
+name: "keijzer3"
+group: "keijzer"
+
+# Train points
+train_points:
+  generate_points: false
+  data_folder: "data/keijzer/keijzer3"
+  # This part is only used if generate_points is true
+  random_points: false
+  min_points: -1
+  max_points: 1
+  num_points: 100
+  xs_noise_std: 0
+  ys_noise_std: 0
+  add_extremes: true # Manually adds points at the extremes of the interval
+
+# Test points
+test_points:
+  min_points: -1
+  max_points: 1
+  num_points: 10000
+
+tolerance: 0.99999
+
+# Test function
+test_function: "0.3*x * sin(2*pi*x)"
+num_variables: 1
+
+# Total iterations
+iterations: 100

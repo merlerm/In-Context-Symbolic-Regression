@@ -1,0 +1,17 @@
+defaults:
+  - function: nguyen/nguyen1
+  - seed_functions: generate
+  - scorer: complexity_scorer
+  - _self_
+
+# Seed functions
+generate_seed_functions: true
+
+# Optimizer
+optimizer:
+  optimizer_threads: 5 # Number of threads to use for the optimizer (each with a different initial value for the coefficients)
+  timeout: 10 # Timeout in seconds, after which the optimizer will stop
+  p0_min: -5 # Lower bound for the initial value of the coefficients
+  p0_max: 5 # Upper bound for the initial value of the coefficients
+  coeff_rounding: 4 # Number of decimal places to round the coefficients to
+  tol: 1e-3 # Tolerance for the optimizer, under which the coefficients are considered to be zero

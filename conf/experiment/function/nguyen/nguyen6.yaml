@@ -1,0 +1,30 @@
+name: "nguyen6"
+group: "nguyen"
+
+# Train points
+train_points:
+  generate_points: false
+  data_folder: "data/nguyen/nguyen6"
+  # This part is only used if generate_points is true
+  random_points: true
+  min_points: -1
+  max_points: 1
+  num_points: 20
+  xs_noise_std: 0
+  ys_noise_std: 0
+  add_extremes: true # Manually adds points at the extremes of the interval
+
+# Test points
+test_points:
+  min_points: -1
+  max_points: 1
+  num_points: 200
+
+tolerance: 0.99999
+
+# Test function
+test_function: "sin(x) + sin(x + x^2)"
+num_variables: 1
+
+# Total iterations
+iterations: 10
