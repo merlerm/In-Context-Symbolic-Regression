@@ -7,7 +7,7 @@
 </p>
 
 
-Official code implementation for the ACL 2024 Student Research Workshop paper [In-Context Symbolic Regression: Leveraging Language Models for Function Discovery](https://arxiv.org/abs/2404.19094). The proposed approach defines an iterative procedure that refines a functional form with an LLM and determines its coefficients with an external optimizer.
+Official code implementation for the ACL 2024 Student Research Workshop paper [In-Context Symbolic Regression: Leveraging Language Models for Function Discovery](https://aclanthology.org/2024.acl-srw.49/). The proposed approach defines an iterative procedure that refines a functional form with an LLM and determines its coefficients with an external optimizer.
 
 <p align="center" style="text-align:center">
   <img src="assets/animation.gif" />
@@ -79,13 +79,20 @@ The code is organized as follows:
 If you find this code useful, please consider citing our paper:
 
 ```bibtex
-@misc{merler2024incontextsymbolicregression,
-      title={In-Context Symbolic Regression: Leveraging Language Models for Function Discovery}, 
-      author={Matteo Merler and Katsiaryna Haitsiukevich and Nicola Dainese and Pekka Marttinen},
-      year={2024},
-      eprint={2404.19094},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2404.19094}, 
+@inproceedings{merler-etal-2024-context,
+    title = "In-Context Symbolic Regression: Leveraging Large Language Models for Function Discovery",
+    author = "Merler, Matteo  and
+      Haitsiukevich, Katsiaryna  and
+      Dainese, Nicola  and
+      Marttinen, Pekka",
+    editor = "Fu, Xiyan  and
+      Fleisig, Eve",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-srw.49",
+    pages = "589--606"
 }
 ```
