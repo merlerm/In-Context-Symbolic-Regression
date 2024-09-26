@@ -93,6 +93,8 @@ If you find this code useful, please consider citing our paper:
     address = "Bangkok, Thailand",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.acl-srw.49",
+    doi = "10.18653/v1/2024.acl-srw.49",
     pages = "589--606"
 }
+
 ```
